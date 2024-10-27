@@ -1,0 +1,413 @@
+@font-face {
+    font-family: area-extra;
+    src: url('area-font-family-1711765279-0/Area-ExtrablackInktrap.otf');
+}
+
+@font-face {
+    font-family: area-normal;
+    src: url('area-font-family-1711765279-0/Area-Bold.otf');
+}
+
+@font-face {
+    font-family: area-semibold;
+    src: url('area-font-family-1711765279-0/Area-SemiboldInktrap.otf');
+}
+
+/*..................................................................*/
+
+.header{
+    background-color: black;
+    filter: brightness(50%);
+    transition: 0.4s;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-item{
+    float: left;
+    margin-top: 25px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: gray;
+    
+    
+}
+
+.text-link{
+    margin-left: 180px;
+    line-height: 14px;
+    text-align: end;
+}
+
+.subscribe{
+    margin-left: 200px;
+}
+
+.header-img{
+    width: 450px;
+}
+
+.dl h1{
+    font-size: 92px;
+    font-family: area-extra;
+    color: white;
+    letter-spacing: -0.070em; 
+    margin-top: 175px;
+}
+
+.dl .title{
+    font-size: 92px;
+    margin-left: 50px;
+    font-family: area-semibold;
+    color: white;
+    letter-spacing: -0.070em;
+    
+}
+
+.dd{
+    margin-left: 360px;
+    color: white;
+    font-size: small;
+    
+}
+
+
+.header-h1{
+    max-width: 900px;
+    font-family: area-normal;
+    margin-left: 300px;
+    margin-top: 250px;
+    padding-bottom: 200px;
+    color: white;
+    text-align: left;
+}
+
+
+.container-fluid{
+    opacity: 1;
+}
+
+.header:hover{
+    filter: brightness(100%);
+    transition: 0.4s;
+}
+/*....................................................................................*/
+
+.algorithm{
+    background-color: #2F251E;
+    height: 750px;
+    filter: brightness(50%);
+    transition: 0.4s;
+}
+
+
+.algorithm-img{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    width: 300px;
+}
+
+.algorithm .title{
+    margin-top: 250px; 
+    font-size: 82px;
+    margin-left: 100px;
+    font-family: area-semibold;
+    color: white;
+    letter-spacing: -0.070em; 
+}
+
+.algorithm h1{
+    margin-top: 250px; 
+    font-size: 82px;
+    font-family: area-extra;
+    color: white;
+    letter-spacing: -0.070em; 
+}
+
+.algorithm p{
+    max-width: 500px;
+    margin-left: 115px;
+    font-family: area-normal;
+    color: white;
+    letter-spacing: 1px;
+}
+.algorithm:hover{
+    filter: brightness(100%);
+    transition: 0.4s;
+}
+/*...........................................................*/
+
+.dogma{
+    background-color: #43392F;
+    height: 750px;
+    filter: brightness(50%);
+    transition: 0.4s;
+    
+}
+
+.dogma-img{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    width: 300px;
+}
+
+.dogma .title{
+    margin-top: 250px; 
+    font-size: 82px;
+    margin-left: 100px;
+    font-family: area-semibold;
+    color: white; 
+    letter-spacing: -0.070em;
+}
+
+.dogma h1{
+    margin-top: 250px; 
+    font-size: 82px;
+    font-family: area-extra;
+    color: white; 
+    letter-spacing: -0.070em;
+}
+
+.dogma p{
+    max-width: 500px;
+    margin-left: 115px;
+    font-family: area-normal;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.dogma:hover{
+    filter: brightness(100%);
+    transition: 0.4s;
+}
+
+/*.............................................................................*/
+
+.architects{
+    background-color: #2F251E;
+    height: 750px;
+    filter: brightness(50%);
+    transition: 0.4s;
+
+}
+
+
+.architects-img{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    width: 300px;
+}
+
+.architects .title{
+    margin-top: 250px; 
+    font-size: 82px;
+    margin-left: 100px;
+    font-family: area-semibold;
+    color: white; 
+    letter-spacing: -0.070em;
+}
+
+.architects h1{
+    margin-top: 250px; 
+    font-size: 82px;
+    font-family: area-extra;
+    color: white; 
+    letter-spacing: -0.070em;
+}
+
+.architects p{
+    max-width: 500px;
+    margin-left: 115px;
+    font-family: area-normal;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.architects:hover{
+    filter: brightness(100%);
+    transition: 0.4s;
+}
+
+/*.............................................................*/
+.wasteland{
+    background-color: #43392F;
+    height: 750px;
+    filter: brightness(50%);
+    transition: 0.4s;
+}
+
+.wasteland-img{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    width: 300px;
+}
+
+.wasteland .title{
+    margin-top: 225px; 
+    font-size: 82px;
+    margin-left: 100px;
+    font-family: area-semibold;
+    color: white; 
+    letter-spacing: -0.070em;
+}
+
+.wasteland h1{
+    margin-top: 225px; 
+    font-size: 82px;
+    font-family: area-extra;
+    color: white; 
+    letter-spacing: -0.070em;
+}
+
+.wasteland p{
+    max-width: 500px;
+    margin-left: 115px;
+    font-family: area-normal;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.wasteland:hover{
+    filter: brightness(100%);
+    transition: 0.4s;
+}
+/*.................................................................*/
+
+.narrative{
+    background-color: #2F251E;
+    height: 750px;
+    filter: brightness(50%);
+    transition: 0.4s;
+}
+
+.narrative-img{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    width: 300px;
+}
+
+.narrative .title{
+    margin-top: 250px; 
+    font-size: 82px;
+    margin-left: 100px;
+    font-family: area-semibold;
+    color: white; 
+    letter-spacing: -0.070em;
+}
+
+.narrative h1{
+    margin-top: 250px; 
+    font-size: 82px;
+    font-family: area-extra;
+    color: white; 
+    letter-spacing: -0.070em;
+}
+
+.narrative p{
+    max-width: 500px;
+    margin-left: 115px;
+    font-family: area-normal;
+    color: white;
+    letter-spacing: 1px;
+}
+.narrative:hover{
+    filter: brightness(100%);
+    transition: 0.4s;
+}
+/*.................................................................*/
+
+.opulence{
+    background-color: #43392F;
+    height: 750px;
+    filter: brightness(50%);
+    transition: 0.4s;
+}
+
+
+.opulence-img{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    width: 300px;
+}
+
+.opulence .title{
+    margin-top: 250px; 
+    font-size: 82px;
+    margin-left: 100px;
+    font-family: area-semibold;
+    color: white; 
+    letter-spacing: -0.070em;
+
+}
+
+.opulence h1{
+    margin-top: 250px; 
+    font-size: 82px;
+    font-family: area-extra;
+    color: white;
+    letter-spacing: -0.070em;
+    
+}
+
+
+.opulence p{
+    max-width: 500px;
+    margin-left: 115px;
+    font-family: area-normal;
+    color: white;
+    letter-spacing: 1px;
+}   
+
+.opulence:hover{
+    filter: brightness(100%);
+    transition: 0.4s;
+}
+/*..............................................................*/
+
+.footer{
+    background-color: black;
+    filter: brightness(50%);
+    transition: 0.4s;
+    
+}
+
+.footer-h1{
+    max-width: 900px;
+    font-family: area-normal;
+    margin-left: 300px;
+    margin-top: 250px;
+    padding-bottom: 200px;
+    color: white;
+    text-align: left;
+}
+
+.footer-img{
+    width: 350px;
+    margin-left: 525px;
+    padding-bottom: 100px;
+}
+
+.footer:hover{
+    filter: brightness(100%);
+    transition: 0.4s;
+}
+/*.................................................................*/
+
+.algorithm, .dogma, .architects, .wasteland, .narrative, .opulence, .footer{
+    position: sticky;
+    top: 0;
+}
+
+/*.........................................................*/
+

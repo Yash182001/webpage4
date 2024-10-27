@@ -1,0 +1,94 @@
+
+@font-face {
+    font-family: semibold;
+    src: url(fonts/gilroy/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(fonts/gilroy/Gilroy-Regular.ttf);
+}
+/*...............................................................................................*/
+.info{
+    width: 80%;
+    position: absolute;
+    opacity: 0;
+    padding-top: 12%;
+    padding-left: 80px;
+}
+
+.info h2{
+    font-size: 25px;
+    text-align: center;
+    font-family: semibold;
+}
+
+.info p{
+    font-size: 12px;
+    font-family: medium;
+}
+
+.info:hover{
+    opacity: 1;
+    text-align: center;
+    color: white;
+}
+
+/*..........................................................Mustang.........................................................*/
+.mustang{
+    width: 400px;
+    border: none;
+    /* margin-top: 100px;
+    margin-left: 200px; */
+}
+
+.mustang-image{
+    height: 250px;
+}
+
+
+.mustang:hover{
+    transform: scale(1.25);
+    transition: 1s ease-in-out;
+    opacity: 0.75;
+}
+
+/*...............................................BMW.....................................................*/
+
+.m5{
+    width: 400px;
+    border: none;
+    /* margin-top: 100px;
+    margin-left: 200px; */
+}
+
+.m5-image{
+    height: 250px;
+}
+
+.m5:hover{
+    transform: scale(1.25);
+    transition: 1s ease-in-out;
+    opacity: 0.75;
+}
+
+/*...........................................................................................................*/
+
+.urus{
+    width: 400px;
+    border: none;
+    /* margin-top: 100px;
+    margin-left: 200px; */
+}
+
+.urus-image{
+    height: 250px;
+}
+
+.urus:hover{
+    transform: scale(1.25);
+    transition: 1s ease-in-out;
+    opacity: 0.75;
+}
+
+/*.................................................................................................................*/
